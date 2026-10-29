@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动滚动</string>
+    <string name="service_label">自动滚动服务</string>
+    <string name="service_desc">按设定的速度模拟持续向上滑动，使屏幕内容匀速滚动。本服务仅注入手势事件，不读取、不采集屏幕上的任何内容。</string>
+</resources>

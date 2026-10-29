@@ -1,0 +1,31 @@
+# 构建产物
+build/
+test-jvm/build/
+*.apk
+*.idsig
+*.dex
+*.class
+
+# 签名文件：自己生成，绝不要提交
+keystore.jks
+*.jks
+*.keystore
+
+# 本机配置
+test-jvm/local.properties
+aj.jar
+lint-out.txt
+lint.html
+
+# Gradle
+.gradle/
+gradle-app.setting
+!test-jvm/gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# 本地预览用
+*preview*.html
